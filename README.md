@@ -23,10 +23,10 @@ Using the `load_convert_image` method which takes out input, converts the image 
 
 If we visualize these channels we can see each channel represented in black and white.  Where black is the non-printed area and shades of gray to white are the printed color.
 
-| Channels                                                    |                                                             |
-|-------------------------------------------------------------|-------------------------------------------------------------|
-| C<br/><img src="./output/c.jpg" alt="drawing" width="300"/> | M<br/><img src="./output/m.jpg" alt="drawing" width="300"/> |
-| Y<br/><img src="./output/y.jpg" alt="drawing" width="300"/> | K<br/><img src="./output/k.jpg" alt="drawing" width="300"/> |
+| Channels                                              |                                                       |
+|-------------------------------------------------------|-------------------------------------------------------|
+| C<br/><img src="./output/c.jpg" alt="c" width="500"/> | M<br/><img src="./output/m.jpg" alt="m" width="500"/> |
+| Y<br/><img src="./output/y.jpg" alt="y" width="500"/> | K<br/><img src="./output/k.jpg" alt="k" width="500"/> |
 
 ## Output Coverage
 The channel coverage per channel is calculated by finding the number of pixels where each channel is not zero and then dividing by the total area.
